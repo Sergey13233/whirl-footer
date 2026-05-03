@@ -1,0 +1,51 @@
+@import "container.css";
+@import "btn.css";
+@import "section.css";
+@import "footer.css";
+
+:root {
+  --white: #FFFFFF;
+  --dark: #1F1F1F;
+  --blue: #0070A0;
+  --gray: #626A72;
+
+  --mobile-sm: max-width: 565px;
+  --mobile: max-width: 767px;
+  --tablet: max-width: 991px;
+  --notebook: max-width: 1199px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+* {
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
